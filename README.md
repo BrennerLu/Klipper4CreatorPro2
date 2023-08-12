@@ -36,5 +36,9 @@ I used following settings for compiling the firmware:
 I flashed the firmware via USB Serial
 
 # Reverse engineering
-To write the printer.cfg, I needed to know the pinout of the microcontroller. So I took the time and traced every single connection of the 144 pin microcontroller :D
+To write the printer.cfg, I needed to know the pinout of the microcontroller. So I took the time and traced every single connection of the 144 pin microcontroller :D Known problems: one extruder isn't extruding
 Documents are found in Klipper4CreatorPro2/reverseEngineering
+
+# printer.cfg
+
+I am currently working on the printer configuration. Axis are moving, but the end positions aren't really there. There is some work left to do. Since it's pretty work in progress, I won't make the printer.cfg public just yet.
